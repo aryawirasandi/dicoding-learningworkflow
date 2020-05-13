@@ -1,13 +1,15 @@
-// document.addEventListener("DOMContentLoaded", main);
+import main from './src/script/view/main.js';
+document.addEventListener("DOMContentLoaded", main);
 
-const {coffeeStock, isCoffeReady } = require('./state.js');
+// const {coffeeStock, isMakeCoffe } = require('./state.js');
 
-const makeCoffe = (type, miligrams) => {
-    if(coffeeStock[type] >= miligrams) {
-        console.log("Kopi berhasil dibuat");
-    }else{
-        console.log("Biji kopi habis");
-    }
-}
+// const makeCoffe = (type, miligrams) => {
+//     if(coffeeStock[type] >= miligrams) {
+//         console.log("Kopi berhasil dibuat");
+//     }else{
+//         console.log("Biji kopi habis");
+//     }
+// }
 
-makeCoffe('robusta', 20);
+// console.log(coffeeStock);
+// console.log(isMakeCoffe);
