@@ -1,3 +1,4 @@
+import DataSource from '../data/data-source.js';
 var main = () => {
     const searchElement = document.querySelector("#searchElement");
     const buttonSearchElement = document.querySelector("#searchButtonElement");
@@ -43,3 +44,5 @@ var main = () => {
   
     buttonSearchElement.addEventListener("click", onButtonSearchClicked);
  };
+
+ export default main;
