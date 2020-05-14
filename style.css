@@ -13,6 +13,12 @@ body{
     margin: 0 auto;
 }
 
+array-list{
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 article-item{
     display: block;
     margin-bottom: 18px;
@@ -33,5 +39,5 @@ article-item > .article-info{
 }
 
 article-item > .article-info > p {
-    margin-top: 18px;
+    margin-top: 10px;
 }
